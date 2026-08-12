@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheAuctionHouse.Common\TheAuctionHouse.Common.csproj" />
+    <ProjectReference Include="..\TheAuctionHouse.Data.EFCore.InMemory\TheAuctionHouse.Data.EFCore.InMemory.csproj" />
+    <ProjectReference Include="..\TheAuctionHouse.Domain.DataContracts\TheAuctionHouse.Domain.DataContracts.csproj" />
+    <ProjectReference Include="..\TheAuctionHouse.Domain.ServiceContracts\TheAuctionHouse.Domain.ServiceContracts.csproj" />
+    <ProjectReference Include="..\TheAuctionHouse.Domain.Services\TheAuctionHouse.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>
