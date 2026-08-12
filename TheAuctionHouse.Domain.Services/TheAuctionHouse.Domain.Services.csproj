@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheAuctionHouse.Domain.Entities\TheAuctionHouse.Domain.Entities.csproj" />
+    <ProjectReference Include="..\TheAuctionHouse.Domain.DataContracts\TheAuctionHouse.Domain.DataContracts.csproj" />
+    <ProjectReference Include="..\TheAuctionHouse.Domain.ServiceContracts\TheAuctionHouse.Domain.ServiceContracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.11.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.11.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
