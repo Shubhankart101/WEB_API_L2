@@ -1,4 +1,22 @@
+# Build output
 bin/
 obj/
+TestResults/
+
+# IDE settings
 .vs/
 .vscode/
+*.user
+*.rsuser
+*.suo
+
+# Logs and diagnostics
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# OS files
+Thumbs.db
+Desktop.ini
